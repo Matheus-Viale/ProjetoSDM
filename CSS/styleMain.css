@@ -1,0 +1,36 @@
+header{
+	width: 940px;
+	margin: 0 auto;
+	background-color: #DEB887;}
+
+header div{
+	text-align: center;
+}
+
+header div img{
+	height: 250px;
+}
+header h1{
+	text-align: center;
+	text-decoration: underline;
+	color: red;
+	font-size: 3em;
+}
+
+header ul{
+	text-align: center;
+}
+
+header ul li{
+	display: inline-block;
+	margin: 20px 30px;
+}
+
+main{
+	width: 940px;
+	margin: 0 auto;
+}
+
+main h2,h3,h4,h5{
+	text-align: center;
+}

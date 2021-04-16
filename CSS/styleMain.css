@@ -1,27 +1,44 @@
 header{
-	width: 940px;
+	width: auto;
 	margin: 0 auto;
-	background-color: #DEB887;}
-
-header div{
 	text-align: center;
+}
+
+.logo{
+	display: inline;
+	margin-left: 5%;
+	float: left;
 }
 
 header div img{
-	height: 250px;
+	height: 100px;
+	position: absolute;
 }
-header h1{
+.titulo{
 	text-align: center;
+	background-color: brown;
+}
+
+header div h1{
 	text-decoration: underline;
 	color: red;
 	font-size: 3em;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+nav{
+	width: 800px;
+	background-color: purple;
+	margin: 0 auto;
+	border-bottom-left-radius: 0.5em;
+	border-bottom-right-radius: 0.5em;
 }
 
-header ul{
+nav ul{
 	text-align: center;
 }
 
-header ul li{
+nav ul li{
 	display: inline-block;
 	margin: 20px 30px;
 }
